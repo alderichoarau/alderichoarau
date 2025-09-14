@@ -1,4 +1,8 @@
-# 👋 Hello, I'm Aldéric  
+# 👋 Hi, I'm Aldéric
+
+<div align="right">
+  <b>🇬🇧 English</b> | <a href="README.fr.md">🇫🇷 Français</a>
+</div>  
 
 💻 Freelance Cloud & DevSecOps Developer | 10+ years of experience  
 ☁️ Expert in **Java (Spring Boot)**, **Angular/TypeScript**, **Azure Migration**, & **DevOps**  
@@ -53,5 +57,17 @@
 
 ---
 
-⚡ *I help companies modernize and secure their applications on Azure, while optimizing cloud costs.*  
-📩 Feel free to reach out to discuss your projects!
+## 🤝 Let's Work Together!
+
+> **Are you looking to...**
+- 🚀 Securely migrate your applications to Azure
+- 💰 Optimize your cloud costs (average 30% reduction)
+- 🔒 Strengthen your cloud security posture
+- 🛠️ Modernize your technical stack
+
+### Ready to start?
+[![Schedule a Call](https://img.shields.io/badge/Schedule_a_Call-30m-blue?style=for-the-badge&logo=microsoft-teams)](https://calendly.com/alderichoarau/30min)
+[![Email](https://img.shields.io/badge/Email-Discuss_your_project-red?style=for-the-badge&logo=gmail)](mailto:alderic.hoarau@gmail.com)
+
+*🎯 Free 30-minute discovery call to assess your needs*  
+*⚡ Helping companies modernize and secure their applications on Azure while optimizing cloud costs*
