@@ -1,7 +1,7 @@
 # 👋 Bonjour, je suis Aldéric
 
 <div align="right">
-  <a href="README.md">🇬🇧 English</a> | <b>🇫🇷 Français</b>
+  <a href="https://github.com/alderichoarau/alderichoarau/blob/main/README.md">🇬🇧 English</a> | <b>🇫🇷 Français</b>
 </div>
 
 💻 Développeur Cloud & DevSecOps Freelance | +10 ans d'expérience  

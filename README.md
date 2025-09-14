@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Aldéric
 
 <div align="right">
-  <b>🇬🇧 English</b> | <a href="README.fr.md">🇫🇷 Français</a>
+  <b>🇬🇧 English</b> | <a href="https://github.com/alderichoarau/alderichoarau/blob/main/README.fr.md">🇫🇷 Français</a>
 </div>  
 
 💻 Freelance Cloud & DevSecOps Developer | 10+ years of experience  
@@ -66,8 +66,9 @@
 - 🛠️ Modernize your technical stack
 
 ### Ready to start?
-[![Schedule a Call](https://img.shields.io/badge/Schedule_a_Call-30m-blue?style=for-the-badge&logo=microsoft-teams)](https://calendly.com/alderichoarau/30min)
+[![Schedule a Call](https://img.shields.io/badge/Schedule_a_Call-30m-blue?style=for-the-badge&logo=microsoft-teams)](https://calendly.com/alderic-hoarau)
 [![Email](https://img.shields.io/badge/Email-Discuss_your_project-red?style=for-the-badge&logo=gmail)](mailto:alderic.hoarau@gmail.com)
+[![Malt](https://img.shields.io/badge/Malt-FF3366?style=for-the-badge&logo=databricks&logoColor=white)](https://www.malt.fr/profile/alderichoarau)  
 
 *🎯 Free 30-minute discovery call to assess your needs*  
 *⚡ Helping companies modernize and secure their applications on Azure while optimizing cloud costs*
