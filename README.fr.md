@@ -128,7 +128,7 @@ Audit et rightsizing de l'infrastructure Azure. Passage en reserved instances et
 
 ### Prêt à en parler ?
 
-[![Planifier un appel](https://img.shields.io/badge/Planifier_un_appel-30min_offert-blue?style=for-the-badge&logo=microsoft-teams)](https://calendly.com/alderichoarau/30min)
+[![Planifier un appel](https://img.shields.io/badge/Planifier_un_appel-30min_offert-blue?style=for-the-badge&logo=microsoft-teams)](mailto:alderic.hoarau@gmail.com)
 [![Email](https://img.shields.io/badge/Email-alderic.hoarau@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:alderic.hoarau@gmail.com)
 [![Malt](https://img.shields.io/badge/Malt-Voir_mon_profil-FF3366?style=for-the-badge&logo=databricks&logoColor=white)](https://www.malt.fr/profile/alderichoarau)
 
