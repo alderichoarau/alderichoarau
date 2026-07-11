@@ -1,0 +1,51 @@
+name: 🔗 Link Checker
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+      - 'README.fr.md'
+      - '.github/workflows/link-checker.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+      - 'README.fr.md'
+  schedule:
+    # Run every Monday at 9 AM UTC to catch broken links
+    - cron: '0 9 * * 1'
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    name: Check markdown links
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Check links in markdown files
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: false
+          use-verbose-mode: true
+          folder-path: '.'
+          file-path: './README.md,./README.fr.md'
+          timeout: 10
+          max-depth: 1
+          file-extension: '.md'
+
+      - name: Create issue if links are broken
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🔴 Broken Links Detected',
+              body: '❌ The link checker workflow found broken links in the README files.\n\nPlease review the workflow logs to see which links are broken:\n' + 
+                    context.payload.repository.html_url + '/actions/runs/' + context.runId,
+              labels: ['bug', 'documentation']
+            })
