@@ -101,6 +101,8 @@ I design and deliver hands-on training sessions for development teams, tech lead
 
 > 💡 All workshops include practical exercises on real environments. Sessions can be customized to your stack and maturity level.
 
+> 🏆 **100% pass rate** on AZ-900 and AZ-104 certifications across cohorts of 12 learners.
+
 ---
 
 ## 📌 Selected Missions
@@ -113,6 +115,9 @@ Implementation of security-by-design across 8 teams. Training sessions on OWASP,
 
 **Cloud Cost Optimization**
 Audit and rightsizing of Azure infrastructure. Transition to reserved instances and autoscaling policies. Result: 40% cost reduction in 3 months.
+
+**Azure Certification Training**
+Prepared cohorts of 12 learners per session for the AZ-900 and AZ-104 exams. Result: 100% pass rate.
 
 ---
 

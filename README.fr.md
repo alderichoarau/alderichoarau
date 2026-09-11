@@ -101,6 +101,8 @@ Je conçois et anime des formations pratiques pour les équipes de développemen
 
 > 💡 Tous les ateliers incluent des exercices pratiques sur des environnements réels. Les sessions sont adaptables à votre stack et à votre niveau de maturité.
 
+> 🏆 **100% de réussite** aux certifications AZ-900 et AZ-104 sur des promotions de 12 apprenants.
+
 ---
 
 ## 📌 Missions marquantes
@@ -113,6 +115,9 @@ Mise en place d'une démarche security-by-design sur 8 équipes. Formation sur l
 
 **Optimisation des coûts cloud**
 Audit et rightsizing de l'infrastructure Azure. Passage en reserved instances et mise en place de politiques d'autoscaling. Résultat : réduction des coûts de 40% en 3 mois.
+
+**Formation aux certifications Azure**
+Préparation de promotions de 12 apprenants par session aux examens AZ-900 et AZ-104. Résultat : 100% de réussite.
 
 ---
 
