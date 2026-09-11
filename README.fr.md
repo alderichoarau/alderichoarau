@@ -58,6 +58,34 @@ Je forme également les équipes techniques aux pratiques DevOps et au cloud.
 
 ---
 
+## 📦 Dépôts en vedette
+
+Une sélection de mes projets publics — applications Azure, modules Terraform réutilisables et outillage DevOps.
+
+### ☁️ Applications Azure
+
+| Projet | Stack | Description |
+|---|---|---|
+| [azure-quiz-frontend](https://github.com/alderichoarau/azure-quiz-frontend) | <img src="https://skillicons.dev/icons?i=azure,angular,ts" height="22" /> | Application Angular 22 de révision des certifications Microsoft Azure — quiz par module et examens blancs officiels, adaptée au mobile. |
+| [azure-quiz-backend](https://github.com/alderichoarau/azure-quiz-backend) | <img src="https://skillicons.dev/icons?i=azure,java,spring,postgres" height="22" /> | API REST Spring Boot pour l'application de quiz Azure — modules de cours, examens blancs et sessions de quiz adossés à PostgreSQL. |
+| [alderichoarau.github.io](https://github.com/alderichoarau/alderichoarau.github.io) | <img src="https://skillicons.dev/icons?i=angular,html,github" height="22" /> | Portfolio et site personnel développé avec Angular, hébergé sur GitHub Pages. |
+
+### 🏗️ Infrastructure as Code
+
+| Projet | Stack | Description |
+|---|---|---|
+| [azure-infra-terraform](https://github.com/alderichoarau/azure-infra-terraform) | <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions" height="22" /> | Azure Landing Zone gérée avec Terraform — IaC modulaire avec remote state, OIDC et CI/CD. |
+| [azure-infra-bicep](https://github.com/alderichoarau/azure-infra-bicep) | <img src="https://skillicons.dev/icons?i=azure,githubactions" height="22" /> ![Bicep](https://img.shields.io/badge/Bicep-black) | Infrastructure as Code Azure avec Bicep — templates ARM natifs déployés via GitHub Actions. |
+| [azure-infra-cli](https://github.com/alderichoarau/azure-infra-cli) | <img src="https://skillicons.dev/icons?i=azure,bash,powershell,githubactions" height="22" /> | Provisionnement d'infrastructure Azure avec l'az CLI — scripts Bash & PowerShell automatisés via GitHub Actions. |
+| [github-repo-terraform](https://github.com/alderichoarau/github-repo-terraform) | <img src="https://skillicons.dev/icons?i=terraform,github" height="22" /> | Configuration Terraform pour gérer et provisionner des dépôts GitHub as code. |
+| [terraform-azurerm-network](https://github.com/alderichoarau/terraform-azurerm-network) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Module Terraform — VNet Azure avec sous-réseaux frontend/backend, chacun protégé par son propre NSG. |
+| [terraform-azurerm-app-service](https://github.com/alderichoarau/terraform-azurerm-app-service) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Module Terraform — Web App Linux Azure (Python) sur un App Service Plan existant. |
+| [terraform-azurerm-function-app](https://github.com/alderichoarau/terraform-azurerm-function-app) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Module Terraform — Function App Linux Azure (Python) avec son propre compte de stockage dédié. |
+| [terraform-azurerm-container](https://github.com/alderichoarau/terraform-azurerm-container) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Module Terraform — Azure Container Instance exposée publiquement. |
+| [terraform-azurerm-storage](https://github.com/alderichoarau/terraform-azurerm-storage) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Module Terraform — compte de stockage Azure avec un conteneur blob privé et un public. |
+
+---
+
 ## 🎓 Formation — Ce que j'enseigne
 
 Je conçois et anime des formations pratiques pour les équipes de développement, les tech leads et les responsables IT — en français ou en anglais, à distance ou en présentiel.

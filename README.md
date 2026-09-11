@@ -58,6 +58,34 @@ I also train technical teams to master DevOps culture and cloud practices.
 
 ---
 
+## 📦 Featured Repositories
+
+A selection of my public work — Azure applications, reusable Terraform modules, and DevOps tooling.
+
+### ☁️ Azure Applications
+
+| Project | Stack | Description |
+|---|---|---|
+| [azure-quiz-frontend](https://github.com/alderichoarau/azure-quiz-frontend) | <img src="https://skillicons.dev/icons?i=azure,angular,ts" height="22" /> | Angular 22 web app for revising Microsoft Azure certifications — module quizzes and official mock exams, mobile-friendly. |
+| [azure-quiz-backend](https://github.com/alderichoarau/azure-quiz-backend) | <img src="https://skillicons.dev/icons?i=azure,java,spring,postgres" height="22" /> | Spring Boot REST API for the Azure quiz app — course modules, mock exams and quiz sessions backed by PostgreSQL. |
+| [alderichoarau.github.io](https://github.com/alderichoarau/alderichoarau.github.io) | <img src="https://skillicons.dev/icons?i=angular,html,github" height="22" /> | Personal portfolio and website built with Angular, hosted on GitHub Pages. |
+
+### 🏗️ Infrastructure as Code
+
+| Project | Stack | Description |
+|---|---|---|
+| [azure-infra-terraform](https://github.com/alderichoarau/azure-infra-terraform) | <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions" height="22" /> | Azure Landing Zone managed with Terraform — modular IaC with remote state, OIDC and CI/CD. |
+| [azure-infra-bicep](https://github.com/alderichoarau/azure-infra-bicep) | <img src="https://skillicons.dev/icons?i=azure,githubactions" height="22" /> ![Bicep](https://img.shields.io/badge/Bicep-black) | Azure infrastructure as code with Bicep — native ARM templates with GitHub Actions deployment. |
+| [azure-infra-cli](https://github.com/alderichoarau/azure-infra-cli) | <img src="https://skillicons.dev/icons?i=azure,bash,powershell,githubactions" height="22" /> | Provisioning Azure infrastructure with the az CLI — Bash & PowerShell scripts automated with GitHub Actions. |
+| [github-repo-terraform](https://github.com/alderichoarau/github-repo-terraform) | <img src="https://skillicons.dev/icons?i=terraform,github" height="22" /> | Terraform configuration to manage and provision GitHub repositories as code. |
+| [terraform-azurerm-network](https://github.com/alderichoarau/terraform-azurerm-network) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — Azure VNet with frontend/backend subnets, each protected by its own NSG. |
+| [terraform-azurerm-app-service](https://github.com/alderichoarau/terraform-azurerm-app-service) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — Azure Linux Web App (Python) on an existing App Service Plan. |
+| [terraform-azurerm-function-app](https://github.com/alderichoarau/terraform-azurerm-function-app) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — Azure Linux Function App (Python) with its own dedicated storage account. |
+| [terraform-azurerm-container](https://github.com/alderichoarau/terraform-azurerm-container) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — publicly exposed Azure Container Instance. |
+| [terraform-azurerm-storage](https://github.com/alderichoarau/terraform-azurerm-storage) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — Azure Storage Account with a private and a public blob container. |
+
+---
+
 ## 🎓 Training — What I teach
 
 I design and deliver hands-on training sessions for development teams, tech leads and IT managers — in French or English, remote or on-site.
