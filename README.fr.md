@@ -66,8 +66,8 @@ Une sélection de mes projets publics — applications Azure, modules Terraform 
 
 | Projet | Stack | Description |
 |---|---|---|
-| [azure-quiz-frontend](https://github.com/alderichoarau/azure-quiz-frontend) | <img src="https://skillicons.dev/icons?i=azure,angular,ts" height="22" /> | Application Angular 22 de révision des certifications Microsoft Azure — quiz par module et examens blancs officiels, adaptée au mobile. |
-| [azure-quiz-backend](https://github.com/alderichoarau/azure-quiz-backend) | <img src="https://skillicons.dev/icons?i=azure,java,spring,postgres" height="22" /> | API REST Spring Boot pour l'application de quiz Azure — modules de cours, examens blancs et sessions de quiz adossés à PostgreSQL. |
+| [azure-quiz-frontend](https://github.com/alderichoarau/azure-quiz-frontend) | <img src="https://skillicons.dev/icons?i=azure,angular,ts,docker,kubernetes" height="22" /> <img src="https://cdn.simpleicons.org/helm/0F1689" height="22" /> ![Angular Material](https://img.shields.io/badge/Angular_Material-DD0031?logo=angular&logoColor=white) | Application Angular 22 de révision des certifications Microsoft Azure — quiz par module et examens blancs officiels, adaptée au mobile. Déployable sur Azure Static Web Apps ou, via Docker + Helm, sur AKS. |
+| [azure-quiz-backend](https://github.com/alderichoarau/azure-quiz-backend) | <img src="https://skillicons.dev/icons?i=azure,java,spring,postgres,redis,docker,kubernetes" height="22" /> <img src="https://cdn.simpleicons.org/helm/0F1689" height="22" /> | API REST Spring Boot pour l'application de quiz Azure — modules de cours, examens blancs et sessions de quiz adossés à PostgreSQL et Redis, avec export des résultats vers Azure Blob Storage. Déployable sur Azure App Service ou, via Docker + Helm, sur AKS. |
 | [alderichoarau.github.io](https://github.com/alderichoarau/alderichoarau.github.io) | <img src="https://skillicons.dev/icons?i=angular,html,github" height="22" /> | Portfolio et site personnel développé avec Angular, hébergé sur GitHub Pages. |
 
 ### 🏗️ Infrastructure as Code

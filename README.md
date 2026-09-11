@@ -66,8 +66,8 @@ A selection of my public work — Azure applications, reusable Terraform modules
 
 | Project | Stack | Description |
 |---|---|---|
-| [azure-quiz-frontend](https://github.com/alderichoarau/azure-quiz-frontend) | <img src="https://skillicons.dev/icons?i=azure,angular,ts" height="22" /> | Angular 22 web app for revising Microsoft Azure certifications — module quizzes and official mock exams, mobile-friendly. |
-| [azure-quiz-backend](https://github.com/alderichoarau/azure-quiz-backend) | <img src="https://skillicons.dev/icons?i=azure,java,spring,postgres" height="22" /> | Spring Boot REST API for the Azure quiz app — course modules, mock exams and quiz sessions backed by PostgreSQL. |
+| [azure-quiz-frontend](https://github.com/alderichoarau/azure-quiz-frontend) | <img src="https://skillicons.dev/icons?i=azure,angular,ts,docker,kubernetes" height="22" /> <img src="https://cdn.simpleicons.org/helm/0F1689" height="22" /> ![Angular Material](https://img.shields.io/badge/Angular_Material-DD0031?logo=angular&logoColor=white) | Angular 22 web app for revising Microsoft Azure certifications — module quizzes and official mock exams, mobile-friendly. Deployable to Azure Static Web Apps or, via Docker + Helm, to AKS. |
+| [azure-quiz-backend](https://github.com/alderichoarau/azure-quiz-backend) | <img src="https://skillicons.dev/icons?i=azure,java,spring,postgres,redis,docker,kubernetes" height="22" /> <img src="https://cdn.simpleicons.org/helm/0F1689" height="22" /> | Spring Boot REST API for the Azure quiz app — course modules, mock exams and quiz sessions backed by PostgreSQL and Redis, with results exported to Azure Blob Storage. Deployable to Azure App Service or, via Docker + Helm, to AKS. |
 | [alderichoarau.github.io](https://github.com/alderichoarau/alderichoarau.github.io) | <img src="https://skillicons.dev/icons?i=angular,html,github" height="22" /> | Personal portfolio and website built with Angular, hosted on GitHub Pages. |
 
 ### 🏗️ Infrastructure as Code
