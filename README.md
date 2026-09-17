@@ -79,6 +79,7 @@ A selection of my public work — Azure applications, reusable Terraform modules
 | Project | Stack | Description |
 |---|---|---|
 | [azure-infra-terraform](https://github.com/alderichoarau/azure-infra-terraform) | <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions" height="22" /> | Azure Landing Zone managed with Terraform — modular IaC with remote state, OIDC and CI/CD. |
+| [gha-actions](https://github.com/alderichoarau/gha-actions) | <img src="https://skillicons.dev/icons?i=githubactions,azure,docker" height="22" /> | Shared composite GitHub Actions (Azure OIDC login, Trivy scan, Node/Java/Terraform setup) reused across my Azure app repos, versioned independently per module. |
 | [azure-infra-bicep](https://github.com/alderichoarau/azure-infra-bicep) | <img src="https://skillicons.dev/icons?i=azure,githubactions" height="22" /> ![Bicep](https://img.shields.io/badge/Bicep-black) | Azure infrastructure as code with Bicep — native ARM templates with GitHub Actions deployment. |
 | [azure-infra-cli](https://github.com/alderichoarau/azure-infra-cli) | <img src="https://skillicons.dev/icons?i=azure,bash,powershell,githubactions" height="22" /> | Provisioning Azure infrastructure with the az CLI — Bash & PowerShell scripts automated with GitHub Actions. |
 | [github-repo-terraform](https://github.com/alderichoarau/github-repo-terraform) | <img src="https://skillicons.dev/icons?i=terraform,github" height="22" /> | Terraform configuration to manage and provision GitHub repositories as code. |
