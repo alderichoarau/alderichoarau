@@ -79,7 +79,6 @@ A selection of my public work — Azure applications, reusable Terraform modules
 | Project | Stack | Description |
 |---|---|---|
 | [azure-infra-terraform](https://github.com/alderichoarau/azure-infra-terraform) | <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions" height="22" /> | Azure Landing Zone managed with Terraform — modular IaC with remote state, OIDC and CI/CD. |
-| [gha-actions](https://github.com/alderichoarau/gha-actions) | <img src="https://skillicons.dev/icons?i=githubactions,azure,docker" height="22" /> | Shared composite GitHub Actions (Azure OIDC login, Trivy scan, Node/Java/Terraform setup) reused across my Azure app repos, versioned independently per module. |
 | [azure-infra-bicep](https://github.com/alderichoarau/azure-infra-bicep) | <img src="https://skillicons.dev/icons?i=azure,githubactions" height="22" /> ![Bicep](https://img.shields.io/badge/Bicep-black) | Azure infrastructure as code with Bicep — native ARM templates with GitHub Actions deployment. |
 | [azure-infra-cli](https://github.com/alderichoarau/azure-infra-cli) | <img src="https://skillicons.dev/icons?i=azure,bash,powershell,githubactions" height="22" /> | Provisioning Azure infrastructure with the az CLI — Bash & PowerShell scripts automated with GitHub Actions. |
 | [github-repo-terraform](https://github.com/alderichoarau/github-repo-terraform) | <img src="https://skillicons.dev/icons?i=terraform,github" height="22" /> | Terraform configuration to manage and provision GitHub repositories as code. |
@@ -88,6 +87,22 @@ A selection of my public work — Azure applications, reusable Terraform modules
 | [terraform-azurerm-function-app](https://github.com/alderichoarau/terraform-azurerm-function-app) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — Azure Linux Function App (Python) with its own dedicated storage account. |
 | [terraform-azurerm-container](https://github.com/alderichoarau/terraform-azurerm-container) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — publicly exposed Azure Container Instance. |
 | [terraform-azurerm-storage](https://github.com/alderichoarau/terraform-azurerm-storage) | <img src="https://skillicons.dev/icons?i=azure,terraform" height="22" /> | Terraform module — Azure Storage Account with a private and a public blob container. |
+
+### ⚙️ GitHub Actions — composite actions
+
+One repo per action, each independently versioned (bare `vN` tags — native Dependabot updates)
+and reused across my Azure app repos' CI/CD.
+
+| Action | Description |
+|---|---|
+| [gha-azure-login](https://github.com/alderichoarau/gha-azure-login) | Federated (OIDC) sign-in to Azure — no client secret. |
+| [gha-aks-admin-login](https://github.com/alderichoarau/gha-aks-admin-login) | Azure login + admin kubeconfig for a given AKS cluster. |
+| [gha-setup-node](https://github.com/alderichoarau/gha-setup-node) | Node from the caller's own `.nvmrc`, npm cache, `npm ci`. |
+| [gha-setup-java](https://github.com/alderichoarau/gha-setup-java) | JDK (Temurin) + Maven dependency caching. |
+| [gha-setup-terraform](https://github.com/alderichoarau/gha-setup-terraform) | Installs the Terraform CLI. |
+| [gha-trivy-scan](https://github.com/alderichoarau/gha-trivy-scan) | Runs Trivy and publishes any findings to the job summary. |
+| [gha-generate-sbom](https://github.com/alderichoarau/gha-generate-sbom) | CycloneDX SBOM generation, upload, and summary. |
+| [gha-setup-chrome-axe](https://github.com/alderichoarau/gha-setup-chrome-axe) | Chrome + matching ChromeDriver, then an axe-core accessibility audit. |
 
 ---
 
