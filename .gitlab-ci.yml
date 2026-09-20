@@ -1,0 +1,20 @@
+# -----------------------------------------------------------------------------------------------
+# CI only -- mirrors .github/workflows/link-checker.yml (broken link check on the README files).
+# The "create an issue on failure" step isn't replicated: that's GitHub Issues API-specific, and a
+# failed pipeline is already visible here on its own.
+# -----------------------------------------------------------------------------------------------
+stages:
+  - test
+
+link-check:
+  stage: test
+  image: node:26
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - changes:
+        - README.md
+        - README.fr.md
+        - .gitlab-ci.yml
+  script:
+    - npx --yes markdown-link-check README.md --timeout 10s
+    - npx --yes markdown-link-check README.fr.md --timeout 10s
