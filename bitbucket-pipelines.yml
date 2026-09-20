@@ -1,0 +1,21 @@
+# -----------------------------------------------------------------------------------------------
+# CI only -- mirrors .gitlab-ci.yml (broken link check on the README files). Scoped to "main" only
+# and only runs when the relevant files change, to stay well within Bitbucket's free-tier 50
+# build-minutes/month.
+# -----------------------------------------------------------------------------------------------
+image: node:26
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Link Check
+          condition:
+            changesets:
+              includePaths:
+                - "README.md"
+                - "README.fr.md"
+                - ".mlc-config.json"
+          script:
+            - npx --yes markdown-link-check -c .mlc-config.json README.md
+            - npx --yes markdown-link-check -c .mlc-config.json README.fr.md
