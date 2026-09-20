@@ -10,8 +10,9 @@ Je forme également les équipes techniques aux pratiques DevOps et au cloud.
 
 > GitHub reste la source de vérité pour tous mes dépôts publics. Ils sont automatiquement
 > mirorrés en écriture seule vers [GitLab](https://gitlab.com/alderichoarau) et
-> [Bitbucket](https://bitbucket.org/alderic-hoarau/) — les issues et pull requests doivent être
-> ouvertes sur GitHub.
+> [Bitbucket](https://bitbucket.org/alderic-hoarau/alderichoarau) (Bitbucket n'a pas de page
+> d'aperçu publique de workspace, d'où le lien vers un repo précis) — les issues et pull requests
+> doivent être ouvertes sur GitHub.
 
 ---
 

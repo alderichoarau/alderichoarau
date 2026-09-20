@@ -10,8 +10,9 @@ I also train technical teams to master DevOps culture and cloud practices.
 
 > GitHub is the source of truth for all my public repositories. They're automatically
 > push-mirrored (read-only) to [GitLab](https://gitlab.com/alderichoarau) and
-> [Bitbucket](https://bitbucket.org/alderic-hoarau/) — issues and pull requests should be opened
-> on GitHub.
+> [Bitbucket](https://bitbucket.org/alderic-hoarau/alderichoarau) (Bitbucket has no public
+> workspace overview page, hence the link to a specific repo) — issues and pull requests should be
+> opened on GitHub.
 
 ---
 
