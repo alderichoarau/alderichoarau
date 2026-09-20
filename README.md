@@ -103,6 +103,7 @@ and reused across my Azure app repos' CI/CD.
 | [gha-trivy-scan](https://github.com/alderichoarau/gha-trivy-scan) | Runs Trivy and publishes any findings to the job summary. |
 | [gha-generate-sbom](https://github.com/alderichoarau/gha-generate-sbom) | CycloneDX SBOM generation, upload, and summary. |
 | [gha-setup-chrome-axe](https://github.com/alderichoarau/gha-setup-chrome-axe) | Chrome + matching ChromeDriver, then an axe-core accessibility audit. |
+| [gha-mirror-gitlab](https://github.com/alderichoarau/gha-mirror-gitlab) | Push-mirrors the caller repo to GitLab (GitLab's free tier only supports push mirroring). |
 
 ---
 

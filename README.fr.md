@@ -103,6 +103,7 @@ natives) et réutilisée dans la CI/CD de mes repos Azure.
 | [gha-trivy-scan](https://github.com/alderichoarau/gha-trivy-scan) | Lance Trivy et publie les résultats dans le job summary. |
 | [gha-generate-sbom](https://github.com/alderichoarau/gha-generate-sbom) | Génération de SBOM CycloneDX, upload et résumé. |
 | [gha-setup-chrome-axe](https://github.com/alderichoarau/gha-setup-chrome-axe) | Chrome + ChromeDriver assorti, puis un audit d'accessibilité axe-core. |
+| [gha-mirror-gitlab](https://github.com/alderichoarau/gha-mirror-gitlab) | Miroir en push du repo appelant vers GitLab (le plan gratuit ne supporte que le push mirroring). |
 
 ---
 
