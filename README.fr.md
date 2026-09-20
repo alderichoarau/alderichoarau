@@ -8,6 +8,11 @@
 J'accompagne les entreprises dans la migration, la sécurisation et la modernisation de leurs applications sur Azure.  
 Je forme également les équipes techniques aux pratiques DevOps et au cloud.
 
+> GitHub reste la source de vérité pour tous mes dépôts publics. Ils sont automatiquement
+> mirorrés en écriture seule vers [GitLab](https://gitlab.com/alderichoarau) et
+> [Bitbucket](https://bitbucket.org/alderic-hoarau/) — les issues et pull requests doivent être
+> ouvertes sur GitHub.
+
 ---
 
 ## 🧭 Ce que je fais
