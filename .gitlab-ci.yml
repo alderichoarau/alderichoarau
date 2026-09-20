@@ -16,5 +16,5 @@ link-check:
         - README.fr.md
         - .gitlab-ci.yml
   script:
-    - npx --yes markdown-link-check README.md --timeout 10s
-    - npx --yes markdown-link-check README.fr.md --timeout 10s
+    - npx --yes markdown-link-check README.md
+    - npx --yes markdown-link-check README.fr.md
