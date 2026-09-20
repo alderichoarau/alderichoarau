@@ -14,7 +14,8 @@ link-check:
     - changes:
         - README.md
         - README.fr.md
+        - .mlc-config.json
         - .gitlab-ci.yml
   script:
-    - npx --yes markdown-link-check README.md
-    - npx --yes markdown-link-check README.fr.md
+    - npx --yes markdown-link-check -c .mlc-config.json README.md
+    - npx --yes markdown-link-check -c .mlc-config.json README.fr.md
